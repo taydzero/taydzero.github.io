@@ -3,17 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+      content="Fullstack developer portfolio. Vue, React, PHP, Node.js, Docker. Real-world projects and clean architecture." />
   <title>Dmitry Pletnev. Fullstack Developer</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <main>
-    
-    <section class="hero">
-      <h1>Dmitry Pletnev</h1>
-      <h2>Fullstack Developer</h2>
+    <div class="lang-switch">
+      <button data-lang="en" class="lang-btn">EN</button>
+      <button data-lang="ru" class="lang-btn">RU</button>
+    </div>
 
-      <p>
+    <section class="hero">
+      <h1 data-i18n="name">Dmitry Pletnev</h1>
+      <h2 data-i18n="role">Fullstack Developer</h2>
+
+      <p data-i18n="hero_text">
         Based in Russia. Fullstack developer building web applications with a focus on clean architecture,
         readable code and real-world functionality.
       </p>
@@ -49,8 +55,7 @@
           <h3 class="tech-col-title">DevOps</h3>
           <div class="tech-col">
             <span class="tech">Docker</span>
-            <span class="tech">Git</span>
-            <span class="tech">GitHub</span>
+            <span class="tech">Docker-compose</span>
           </div>
         </div>
       </div>
@@ -58,8 +63,8 @@
 
 
     <section class="about">
-      <h2>About me</h2>
-      <p>
+      <h2 data-i18n="about_title">About me</h2>
+      <p data-i18n="about_text">
         I am a fullstack developer focused on building practical web applications.
         I work with both frontend and backend, understand how client and server
         interact, and pay attention to code structure and maintainability.
@@ -67,18 +72,18 @@
     </section>
 
     <section class="projects">
-      <h2>Projects</h2>
+      <h2 data-i18n="projects_title">Projects</h2>
       <div class="project-list">
         <div class="project-card">
-          <h3>Task Manager</h3>
+          <h3 data-i18n="project_task_title">Task Manager</h3>
 
-          <p class="project-description">
+          <p class="project-description" data-i18n="project_task_desc">
             A simple task management web application with drag-and-drop board,
             built to practice fullstack development.
           </p>
 
           <p class="project-tech">
-            <strong>Tech:</strong> Vue, PHP, MySQL
+            <strong data-i18n="project_task_tech">Tech:</strong> Vue, PHP, MySQL
           </p>
 
           <div class="project-links">
@@ -126,7 +131,8 @@
     </section>
     <hr>
     <section class="contacts">
-      <h2>Contacts</h2>
+      
+      <h2 data-i18n="contact">Contacts</h2>
 
       <ul>
         <li>
@@ -149,6 +155,14 @@
         </li>
       </ul>
     </section>
+    <div class="resume-links">
+      <a href="public/resume/Dmitry Pletnev — Fullstack Developer en.pdf" download>
+        Download CV (EN)
+      </a>
+      <a href="public/resume/Dmitry Pletnev — Fullstack Developer ru.pdf" download>
+        Скачать резюме (RU)
+      </a>
+    </div>
 
   </main>
   <script src="assets/js/main.js"></script>
