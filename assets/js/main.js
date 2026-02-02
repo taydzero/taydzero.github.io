@@ -12,9 +12,13 @@ const translations = {
 
     projects_title: "Projects",
 
+    project_task_title_1: "Web social network",
     project_task_title: "Task Manager",
+    project_task_desc_1:
+      "Designed and developed a social networking web application featuring user authentication, private messaging system, conversation management, RESTful API backend and responsive UI built with modern frontend technologies.",
     project_task_desc:
       "Designed and implemented a task management web application with kanban workflow, REST API backend and relational database.",
+    project_task_tech_1: "Tech:",
     project_task_tech: "Tech:",
 
     contact: "Contacts",
@@ -34,9 +38,14 @@ const translations = {
     projects_title: "Проекты",
 
     project_task_title: "Менеджер задач",
+    project_task_title_1: "Соц-сеть",
+    project_task_desc_1:
+      "Fullstack веб-приложение социальной сети с индентификацией, аутентификацией, авторизацией, системой диалогов и REST API бэкендом.",
     project_task_desc:
       "Веб-приложение для управления задачами с kanban-доской и drag-and-drop, разработанное для практики fullstack-разработки.",
+    project_task_tech_1: "Стек:",
     project_task_tech: "Стек:",
+
 
     contact: "Контакты",
   }
