@@ -19,6 +19,8 @@ const translations = {
     project_task_title_2: "Online School Platform",
     project_task_desc_2:
       "A web application for managing online courses with a containerized architecture. It includes core functionality such as user registration and authentication, database integration, and containerized deployment.",
+    project_task_title_3: "Management Dashboard",
+    project_task_desc_3: "Web application for managing projects, tasks, and team. Includes team and personal chat",
     project_task_desc:
       "Designed and implemented a task management web application with kanban workflow, REST API backend and relational database.",
     project_task_tech: "Tech:",
@@ -40,12 +42,14 @@ const translations = {
     projects_title: "Проекты",
 
     project_task_title: "Менеджер задач",
-    project_task_title_1: "Соц-сеть",
+    project_task_title_1: "Социальная сеть",
     project_task_desc_1:
       "Fullstack Веб-приложение, представляющее собой социальной сети. Проект реализован на TypeScript/React и включает backend-сервис для управления пользователями и данными и стандартные функции социальной платформы.",
     project_task_title_2: "Платформа курсов",
     project_task_desc_2:
       "Веб-приложение для управления онлайн-курсами с контейнеризированной архитектурой. Реализован базовый функционал, включая регистрацию и авторизацию пользователей, работу с базой данных и контейнеризированный запуск.",
+    project_task_title_3: "Система управления проектами и командой",
+    project_task_desc_3: "Веб-приложение для управления проектами, задачами и участниками команды. Имеется функционал групповых и личных переписок",
       project_task_desc:
       "Веб-приложение для управления задачами с kanban-доской и drag-and-drop, разработанное для практики fullstack-разработки.",
     project_task_tech: "Стек:",
